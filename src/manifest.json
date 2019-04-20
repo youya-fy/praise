@@ -1,0 +1,42 @@
+{
+  "name": "Praise",
+  "description": "用于在设计中夸奖自己",
+  "author": "Duan",
+  "homepage": "https://duanjun.net",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "👍 开始夸",
+      "identifier": "net.duanjun.praise.main",
+      "script": "./window.js"
+    },
+    {
+      "name": "语音合成token",
+      "identifier": "net.duanjun.praise.token",
+      "script": "./token.js"
+    },
+    {
+      "script": "./say.js",
+      "name": "say",
+      "handlers": {
+        "actions": {
+          "LayersMoved": "sayit",
+          "LayersResized": "sayit",
+          "TextChanged": "sayit",
+          "ToggleLayout": "sayit",
+          "Transform": "sayit",
+          "Rotate": "sayit"
+        }
+      },
+      "identifier": "net.duanjun.praise.say"
+    }
+  ],
+  "menu": {
+    "title": "👍 praise",
+    "items": [
+      "net.duanjun.praise.main",
+      "net.duanjun.praise.token"
+    ]
+  }
+}

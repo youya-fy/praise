@@ -1,0 +1,13 @@
+# build artefacts
+praise.sketchplugin
+
+# npm
+node_modules
+.npm
+npm-debug.log
+package-lock.json
+yarn.lock
+.eslintrc.js
+
+# mac
+.DS_Store
