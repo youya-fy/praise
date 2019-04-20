@@ -2,9 +2,9 @@
 
 Sketch夸夸 —— 用于在设计中夸奖自己
 
-![](images/02.mp4)
+(使用演示视频在images/02.mp4)
 
-> 视频有声音
+[文章链接](https://zhuanlan.zhihu.com/p/63101733)
 
 ## 安装
 
