@@ -2,9 +2,13 @@
 
 Sketch夸夸 —— 用于在设计中夸奖自己
 
+![](images/02.mp4)
+
+> 视频有声音
+
 ## 安装
 
-[下载链接](/)
+[下载链接](https://github.com/youya-fy/praise/releases/latest)
 
 下载后解压安装
 
